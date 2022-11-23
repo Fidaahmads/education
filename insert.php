@@ -36,7 +36,7 @@
          
 		 $conn->query($sql);
         
-         header ('location:contact.php')
+         header ('location:contact.html')
         // Close connection
      
         ?>
