@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -150,48 +149,62 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<h3>Daftar Online</h3>
-					<form action="#">
+					<form action="insert.php" method="POST">
 						<div class="row form-group">
 							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Nama Pertama">
+								<label for="fname"></label>
+								<input type="text" name="namapertama" class="form-control" placeholder="Nama Pertama">
 							</div>
 							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Nama Terakhir">
+								<label for="lname"></label>
+								<input type="text" name="namaterakhir" class="form-control" placeholder="Nama Terakhir">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Alamat Email">
+								<label for="birth"></label> 
+								<input type="date" name="tanggallahir" class="form-control" placeholder="Tanggal Lahir">
+							</div>
+						</div>
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="number"></label>
+								<input type="text" name="nomorhp" class="form-control" placeholder="Nomor HP">
+							</div>
+						</div>
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+							<label for="email"></label> 
+								<input type="text" name="alamatemail" class="form-control" placeholder="Alamat Email">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Lulusan">
+							<label for="almat"></label> 
+								<input type="text" name="lulusan" class="form-control" placeholder="Lulusan">
 							</div>
 						</div>
-
+						
 						<div class="row form-group">
 							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Alasan Masuk MITQ Al Firdaus"></textarea>
+								<label for="motivasi"></label>
+								<textarea name="motivasi" cols="30" rows="10" class="form-control" placeholder="Alasan Masuk MITQ Al Firdaus"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Daftar" class="btn btn-primary">
+							<input type="submit" value="Daftar" name="proses" class="btn btn-primary">
 						</div>
-
 					</form>		
 				</div>
 			</div>
-			
+           </div>	
 		</div>
 	</div>
+
 	<div id="fh5co-register" style="background-image: url(images/img_bg_2.jpg);">
 		<div class="overlay"></div>
 		<div class="row">
